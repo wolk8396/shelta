@@ -1,0 +1,188 @@
+.modal-window {
+  background: rgba(41, 41, 41, 0.6);
+  position: fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  z-index: 100;
+}
+
+.wrapper-modal {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 952px;
+  height: 552px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.information-pets {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 900px;
+  height: 500px;
+  background: #FAFAFA;
+  border-radius: 9px;
+}
+
+.btn_close {
+  box-sizing: border-box;
+  width: 52px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: 0;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  color: #292929;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pet-img {
+  width: 500px;
+}
+
+.content {
+  width: 450px;
+}
+
+.wrapper-information {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 351px;
+  height: 362px;
+  margin: 0 auto;
+  border: 1px;
+  margin-top: 50px;
+}
+
+.title-modal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 78px;
+}
+
+.title-modal-pet,
+.description-pet,
+.breed {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.title-modal-pet {
+  font-size: 35px;
+  width: 145px;
+  height: 45px;
+}
+
+.breed {
+  height: 23px;
+  font-size: 20px;
+}
+
+.description-pet {
+  width: 350px;
+  height: 102px;
+  font-size: 15px;
+}
+
+.list-items {
+  margin-left: 20px;
+}
+
+.item {
+  color:  #F1CDB3;
+  list-style: disc;
+}
+
+.pet-item {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.pet-point {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+@media (max-width: 1260px) {
+  .wrapper-modal {
+    width: 682px;
+    height: 402px;
+  }
+
+  .information-pets {
+    width: 630px;
+    height: 350px;
+  }
+
+  .pet-img {
+    width: 350px;
+  }
+
+  .content{
+    width: 269px;
+  }
+
+  .wrapper-information{
+    width: 260px;
+    height: 303px;
+    margin-top: 20px;
+  }
+
+  .description-pet {
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 745px) {
+  .wrapper-modal {
+    width: 271px;
+    height: 393px;
+  }
+
+  .information-pets {
+    width: 240px;
+    height: 341px;
+  }
+
+  .wrapper-information{
+    width: 220px;
+    height: 321px;
+    margin-top: 10px;
+  }
+
+  .title-modal-pet,
+  .breed {
+    margin: 0 auto;
+  }
+
+  .pet-img {
+    display: none;
+  }
+}
+

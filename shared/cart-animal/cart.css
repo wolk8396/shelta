@@ -1,0 +1,49 @@
+.cart_animal {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 270px;
+  height: 435px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  margin-left: 90px;
+}
+
+.cart_animal > img {
+  width: 270px;
+  height: 270px;
+}
+
+.title-pet {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-pet {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  background: #FAFAFA;
+  border-radius: 100px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn-pet:hover {
+  background-color: #F1CDB3;
+}
+
+
