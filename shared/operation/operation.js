@@ -17,6 +17,6 @@ export class Operation {
   }
 
   static addListeners (element, eventName, listeners) {
-    listeners.forEach(el =>  element.addEventListener(eventName, el))
+    listeners.forEach(el =>  element.addEventListener(eventName, el));
   }
 }
