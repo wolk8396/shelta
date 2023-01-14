@@ -11,7 +11,7 @@ export class ModalComponent {
   get onGetDate() {}
 
   set onGetDate(value) {
-    this.onUpDateModal(value)
+    this.onUpDateModal(value);
   }
 
   onInitModal () {

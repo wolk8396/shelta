@@ -1,9 +1,9 @@
 export class Operation {
 
   static Fn_number (array, number) {
-    const start = array.length /number
+    const start = array.length /number;
 
-    return Math.trunc(start)
+    return Math.trunc(start);
   }
 
   static onInitScreen (...functions) {

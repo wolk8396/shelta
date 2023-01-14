@@ -9,7 +9,7 @@ import {ModalComponent} from './shared/modal-window/modal-component.js';
 const slider = document.querySelector('.wrapper-slider');
 const header = document.querySelector('.header-wrapper');
 const wrapper = document.querySelector('.wrapper');
-const body = document.querySelector('body')
+const body = document.querySelector('body');
 
 const shelter = () => {
   const btn_forward = document.querySelector('.arrow_forward');
